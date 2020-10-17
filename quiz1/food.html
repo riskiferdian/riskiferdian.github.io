@@ -4,8 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+</style>
+<title>Navbar CSS</title>
+<style>
+* {
+    margin:0; 
+    padding:0;
+}
+
+nav {
+    margin:auto;
+    text-align: center;
+    width: 100%;
+    font-family: arial;
+} 
+
+nav ul {
+    background:#37988e;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+nav ul li{
+    float:left;
+}
+
+nav ul li:hover{
+    background:#d68d9a;
+}
+
+nav ul li:hover a{
+    color:#000;
+}
+
+nav ul li a{
+    display: block;
+    padding: 25px;
+    color: #fff;
+    text-decoration: none;
+}
+</style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Homepage</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="hometown.html">Hometown</a></li>
+            <li><a href="tourist.html">Tourist</a></li>
+            <li><a href="food.html">Food</a></li>
+        </ul>
+    </nav>
     <h1>ini adalah makanan</h1>
 </body>
 </html>
